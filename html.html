@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        height: 100vh;
+            
+            background-image: url("1.webp");
+            background-size: cover;    
+            
+
+        }
+.car {
+            position: absolute;
+            width: 200px;    
+            height: auto;
+            bottom: 100px;    
+            left: 250px;      
+            
+            animation: drive 6s linear forwards;
+        }
+        @keyframes drive {
+            100% {
+                left: calc(100% - 250px)
+            }
+        }
+</style>
+</head>
+<body>
+    
+    
+
+    <img src="https://avatars.mds.yandex.net/i?id=789b6bd25e5d45e810c51dd8e0d51fc0_l-5284759-images-thumbs&n=13" alt="Машина" class="car">
+</body>
+</html>
